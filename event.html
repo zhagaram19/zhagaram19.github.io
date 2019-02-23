@@ -1,0 +1,124 @@
+ <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>ZHAGARAM19 - A Technical Symposium | Registration | GCE-Srirangam | Trichy | February</title>
+<meta name="Description" content="ZHAGARAM19 is a Technical Symposium conducted by Department of Computer Science of Government College Of Engineering - Srirangam (Trichy) on February 22 2019
+ZHAGARAM19 is powered by  XakTecz
+The registration fee is Rs.200
+GCE - Srirangam is located at Sethurapatti village (620012) in Trichy">
+<meta name="Keywords" content="Zhagaram19 Technical Symposium Fun Events Paper presents February 22 2019 2k19 GCE Srirangam Government College Of Engineering Sethurapatti in Trichy">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="s.css">
+ <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' >
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> 
+<link href="https://fonts.googleapis.com/css?family=Lakki+Reddy" rel="stylesheet">
+
+
+  
+ </head>
+<body  id="bg" style="color:white">
+<div class="container" style="color:white">
+<nav class="navbar" role="navigation">
+     <center><h1 style="font-family:'Lakki Reddy',cursive;position:relative;top:10px;" >TECHNICAL AND NON-TECHNICAL<br>EVENTS</h1></center>
+	 </nav>
+	 </div>
+<div class="row-sm-9">
+  
+<center>
+<button onclick='getContent("p1.html")' class="btn btn-outline-light">PAPER PRESENTATION</button>
+<button onclick='getContent("debug.html")' class="btn btn-outline-light" >DEBUGGING</button>
+<button onclick='getContent("quiz.html")' class="btn btn-outline-light" />KNOWLEDGE CHECK</button>
+<button onclick='getContent("code.html")' class="btn btn-outline-light" />WEB-BEE</button>
+<button onclick='getContent("connexion.html")' class="btn btn-outline-light">CONNEXION</button>
+<button onclick='getContent("meme.html")' class="btn btn-outline-light" >MEME CREATION</button>
+<button onclick='getContent("shortfilm.html")' class="btn btn-outline-light" >SHORT FLIM</button>
+<button onclick='getContent("marketing.html")' class="btn btn-outline-light" >SMART & SAVVY</button>
+<button onclick='getContent("photography.html")' class="btn btn-outline-light" >CAPTURE THE MOMENT</button>
+<button onclick='getContent("vg.html")' class="btn btn-outline-light" />VIRTUAL GAMING</button>
+<button onclick='getContent("fun.html")' class="btn btn-outline-light" />FUN ZONE</button></center>
+<center>
+<div class="box" id="contentArea"><br>
+<img  class="cash" src="c1.jpg"></img>
+<h1><font color="white"><br>RULES & REGULATIONS</font></h1>
+<h5 style="color:white;"><b> * ID Card for every participants is mandatory.</h5>
+</center>
+  </div>
+  
+ 
+
+<script>
+function openSlideMenu(){ 
+document.getElementById('side-menu').style.width='250px';
+
+}
+function closeSlideMenu(){ 
+document.getElementById('side-menu').style.width='0';
+
+}
+
+</script>
+<script type="text/javascript">
+var req;
+function getContent(url)
+{
+if(window.ActiveXObject)
+{
+req=new ActiveXObject("Microsoft.XMLHTTP");
+}
+else if(window.XMLHttpRequest)
+{
+req=new XMLHttpRequest();
+}
+req.onreadystatechange=diplayProfile;
+req.open('POST',url,true);
+req.send(null);
+}
+function diplayProfile()
+{
+if(req.readyState==4)
+{
+document.getElementById('contentArea').innerHTML=req.responseText;
+}
+}
+function clearContent()
+{
+document.getElementById('contentArea').innerHTML='';
+}
+</script>
+  </div>
+  <span class="open-slide">
+<a href="#" >
+<svg width="30" height="30" onclick='openSlideMenu()' id="position" >
+ <path d="M0,5,30,5" stroke="#ddd" stroke-width="5"/>
+ <path d="M0,14,30,14" stroke="#ddd" stroke-width="5"/>
+ <path d="M0,23,30,23" stroke="#ddd" stroke-width="5"/></svg>
+</a> 
+</span>
+
+<div id="side-menu" class="side-nav">
+<a href="#" class="btn-close" onclick='closeSlideMenu()'>&times;</a>
+<a href="index.html"><i class="fa fa-home" style='font-size:24px'></i> HOME</a>  
+<a href="event.html"><i class='fas fa-theater-masks' style='font-size:24px'></i> EVENTS</a>
+<a href="register.html"><i class='fas fa-edit' style='font-size:24px'></i> REGISTER</a>
+<a href="contact.html"><i class="fa fa-phone" style="font-size: 24px"></i> CONTACT</a>
+<a href="venue.html"><i class='fas fa-map-marker-alt' style='font-size:24px'></i>  VENUE</a>
+</div>
+
+
+<script>
+function openSlideMenu(){ 
+document.getElementById('side-menu').style.width='250px';
+document.getElementById('main').style.margin='250px';
+}
+function closeSlideMenu(){ 
+document.getElementById('side-menu').style.width='0';
+document.getElementById('main').style.margin='0px';
+}
+
+</script>
+
+</body>

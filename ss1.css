@@ -1,0 +1,146 @@
+#cont1
+{
+color:white;
+position:absolute;
+width:50%;
+height:35%;
+border-radius:100%;
+top:150px;
+left:100px;
+}
+img:hover{
+  opacity: 0.3;
+}
+.overlay {
+  position:absolute;
+  top: 79px;
+   left: 75px;
+border-radius:50%;
+  opacity: 0;
+  transition: .5s ease;
+}
+#cont1:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color:#f9f6f6;
+  font-size: 2px;
+  position:absolute;
+  top: 20px;
+  left: 20px;
+
+text-align:center;
+color:white;
+font-size:20px;
+position:relative;
+top:110px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 5;
+}
+#cont2
+{
+color:white;
+position:absolute;
+width:50% ;
+height:35%;
+border-radius:100%;
+top:500px;
+left:100px;
+}
+img:hover{
+  opacity: 0.3;
+}
+
+#cont2:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color:#f9f6f6;
+  font-size: 20px;
+  position:absolute;
+  top: 50px;
+  left: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 5;
+}
+#cont3
+{
+color:white;
+position:absolute;
+width:50%;
+height:35%;
+border-radius:100%;
+top:850px;
+left:100px;
+}
+img:hover{
+  opacity: 0.3;
+}
+
+#cont3:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color:#f9f6f6;
+  font-size: 20px;
+  position:absolute;
+  top: 50px;
+  left: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 5;
+}
+#cont4
+{
+color:white;
+position:absolute;
+width:50%;
+height:35%;
+border-radius:100%;
+top:1200px;
+left:100px;
+}
+img:hover{
+  opacity: 0.3;
+}
+#cont4:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color:#f9f6f6;
+  font-size: 20px;
+  position:absolute;
+  top: 50px;
+  left: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 5;
+}
+body {
+background-image: url("muki2.jpg");
+  height: 1700px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p
+{
+color:white;
+text-align:center;
+font-family:Cooper Black;
+font-size:50px;
+position:relative;
+top:50px;
+}
+.put{
+align:center;
+}

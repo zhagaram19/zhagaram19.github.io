@@ -1,0 +1,82 @@
+
+.side-nav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#111;
+	opacity:1;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition:0.5s;
+	
+}
+#bg
+{
+ background-image: url("5.jpg");
+  height: 100%; 
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.side-nav a{
+	
+	padding:10px 10px 10px 30px;
+	text-decoration:none;
+	font-size:22px;
+	color:#ccc;
+	display:block;
+	transition:0.3s;
+}
+.side-nav a:hover{
+	
+	color:#923869;
+}
+.side-nav .btn-close{
+	position:absolute;
+	top:0;
+        right:15px;
+	font-size:40px;
+	margin-left:75px;
+}
+#position{
+    position: fixed;
+    top:25px;
+    margin-left:30px;
+}
+t1 {
+  -moz-tab-size: 3; /* Firefox */
+  -o-tab-size: 4; /* Opera 10.6-12.1 */
+  tab-size: 4;
+}
+
+
+.h
+{
+position:relative;
+top:10px;
+left:400px;
+}
+.hh
+{
+position:relative;
+top:0px;
+left:230px;
+}
+.cash
+{       position: relative;
+    top: 12px;
+    width: 219px;
+    height: 184px;
+}
+#bg {
+  background-image: url("5.jpg");
+  height: 100%; 
+
+  background-repeat: repeat;
+  background-size: cover;
+}

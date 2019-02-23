@@ -1,0 +1,20 @@
+.h
+{
+position:relative;
+top:10px;
+left:100px;
+font-size:16px;
+}
+.hh
+{
+position:relative;
+top:0px;
+left:70px;
+font-size:16px;
+}
+.cash
+{        position: relative;
+    top: 12px;
+    width: 219px;
+    height: 184px;
+}

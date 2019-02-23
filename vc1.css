@@ -1,0 +1,24 @@
+ iframe{ 
+outline:none;	
+position:relative;
+    top:70px;
+    left:25px;
+    bottom: 500px;
+    right: 50px;
+    width:80%;
+    height:300px;
+backgroundcolor:#123445;
+   }
+p
+{
+color:white;
+font-size:17px;
+}
+body {
+  background-image: url("1ue.jpg");
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
